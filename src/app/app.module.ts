@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ListModule } from '@aziz-abduraimov/test-lib';
+import { BorderModule } from '@aziz-abduraimov/test-lib';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ListModule,
+    BorderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
