@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "lib:build": "ng build test-lib",
+    "lib:build": "ng build --prod test-lib",
     "lib:watch": "ng build test-lib --watch",
     "lib:publish": "npm run lib:build && cd dist/test-lib && npm pack npm publish",
     "build": "ng build",
